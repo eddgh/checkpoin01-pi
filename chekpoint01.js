@@ -65,8 +65,8 @@ function prepararPrato(opcao, tempoPadrao) {
 
 
         default:
-            console.log('Prato inexistente')
+            return 'Prato inexistente'
+        break;        
     }
 }
-
 console.log(prepararPrato(1, 10));
